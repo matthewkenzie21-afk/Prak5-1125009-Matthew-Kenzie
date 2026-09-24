@@ -37,8 +37,7 @@ public class SmartSpeaker extends SmartDevice implements Connectable, Switchable
 
     @Override
     public String getDeviceDetails() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getDeviceDetails'");
+       return "Smart Speaker";
     }
 
     public void print() {
